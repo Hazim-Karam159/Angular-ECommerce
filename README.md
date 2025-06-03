@@ -1,66 +1,142 @@
-# Angular Labs
+# ⚡ Angular Labs – E-Commerce App
 
+> A sleek, scalable, and performant e-commerce web app built with **Angular CLI v20.0.0**  
+> Crafted for maintainability and a modern, intuitive UI/UX.
 
-![Screenshot (28)](https://github.com/user-attachments/assets/d240a8b2-9497-4eed-94a0-d18414eabb80)
+---
 
-![Screenshot (30)](https://github.com/user-attachments/assets/8c7b9447-ada9-4eca-a6b5-0f0d915a62b5)
+## 📸 Live Preview
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d240a8b2-9497-4eed-94a0-d18414eabb80" width="600" alt="App Screenshot 1" />
+  <br/><br/>
+  <img src="https://github.com/user-attachments/assets/8c7b9447-ada9-4eca-a6b5-0f0d915a62b5" width="600" alt="App Screenshot 2" />
+</div>
 
+---
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.0.
+## 🚀 Quick Start
 
-## Development server
+### Run Locally
 
-To start a local development server, run:
+# Clone this repository
+git clone https://github.com/Hazim-Karam159/Angular-ECommerce.git
 
-```bash
+# Navigate into the project directory
+cd Angular-ECommerce
+
+# Install dependencies
+npm install
+
+# Start the development server
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
+Open your browser and visit [http://localhost:4200](http://localhost:4200)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+> ⚡ Auto-reloads on file changes for smooth development
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🧱 Project Structure
 
-```bash
+src/
+├── app/
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Feature modules and route components
+│   ├── services/        # Business logic and API calls
+│   ├── models/          # TypeScript interfaces & types
+│   └── app.module.ts    # Root Angular module
+├── assets/              # Static assets (images, icons, fonts)
+└── environments/        # Environment-specific config files
+
+---
+
+## 🛠 Code Scaffolding
+
+Generate Angular building blocks easily with CLI:
+
+
+ng generate component my-component
+ng generate service my-service
+
+Explore all options:
+
+
 ng generate --help
-```
 
-## Building
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## 🏗️ Build for Production
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Optimize and bundle your app for deployment:
 
-## Running unit tests
+ng build --configuration=production
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
-```bash
+The compiled files will be in the `dist/` folder, ready to deploy.
+
+---
+
+## ✅ Testing
+
+### Unit Tests
+
+Run unit tests with Karma:
+
 ng test
-```
 
-## Running end-to-end tests
 
-For end-to-end (e2e) testing, run:
+### End-to-End Tests
 
-```bash
+Run E2E tests (setup required):
+
+
 ng e2e
-```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## Additional Resources
+> E2E framework not included by default — consider [Cypress](https://www.cypress.io) or [Playwright](https://playwright.dev) for rich testing.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+
+## 📚 Helpful Resources
+
+* [Angular Official Documentation](https://angular.io/docs)
+* [Angular CLI Reference](https://angular.io/cli)
+* [RxJS Docs](https://rxjs.dev)
+* [Angular Blog](https://blog.angular.io)
+
+---
+
+## 🙋‍♂️ Author
+
+Made with ❤️ by **Hazim Karam**
+🔗 [GitHub](https://github.com/Hazim-Karam159) | [LinkedIn](https://www.linkedin.com/in/hazim-karam-b14737266)
+
+---
+
+## 🧭 Roadmap
+
+* [x] Initialize Angular workspace
+* [x] Setup product & wishlist modules
+* [ ] User authentication system
+* [ ] Backend API integration
+* [ ] Payment & checkout flow
+* [ ] Deployment to Firebase / Netlify
+
+---
+
+## 📄 License
+
+This project is licensed under the **\[Your License Here]** license. *(e.g., MIT, Apache 2.0)*
+
+---
+
+## 🏷️ Project Info
+
+* **Project Name:** Angular-ECommerce
+* **Framework:** Angular 20.0.0
+* **Status:** 🚧 In Development
+
+---
