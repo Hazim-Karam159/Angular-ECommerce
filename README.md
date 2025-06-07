@@ -5,14 +5,6 @@
 
 ---
 
-## 📸 Live Preview
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/d240a8b2-9497-4eed-94a0-d18414eabb80" width="600" alt="App Screenshot 1" />
-  <br/><br/>
-  <img src="https://github.com/user-attachments/assets/8c7b9447-ada9-4eca-a6b5-0f0d915a62b5" width="600" alt="App Screenshot 2" />
-</div>
-
 ---
 
 ## 🚀 Quick Start
